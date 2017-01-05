@@ -252,11 +252,7 @@ poorten voorzie voor het sturen van het deurslot en voor nazicht of de deur open
 ### Maandag
 * Verder gewerkt aan bootcyclus, ik had hier problemen met requests module. Deze was al geïnstalleerd omdat ik de python package manager had geïnstalleerd. Door dit handmatig opnieuw te installeren met sudo
 command, had ik een ImportError als ik de python package manager wouw gebruiken. Ik heb dit na wat onderzoek met het 
-volgende [stackoverflow artikel](http://stackoverflow.com/questions/27341064/how-do-i-fix-importerror-cannot-import-name-incompleteread) kunnen oplossen. Ik wou de nieuwste versie van pyscard downloaden
-de ontwikkelaar had namelijk een bug opgelost die ervoor zorgde dat pyscard niet via de package manager geïnstalleerd kon worden. Dit zou handig zijn om eventueel een bash script te ontwikkelen die automatisch 
-alles installeerd van dependencies op de Raspberry Pi.
-* Probleem met de UV4L deamon, deze crashed om de zoveel tijd. Het is nog ook altijd niet mogelijk om de videofeed van de PS3 eye weer te geven in de browser.
-* Na wat onderzoek heb ik door de extra's van UV4L te downloaden het probleem met de crashende deamon voorlopig kunnen oplossen.
+volgende [stackoverflow artikel](http://stackoverflow.com/questions/27341064/how-do-i-fix-importerror-cannot-import-name-incompleteread) kunnen oplossen. 
 
 ### Dinsdag
 * Nog altijd niet in staat beeld te krijgen van de PS3 eye. Ik heb hierna besloten om te kunnen testen of ik in staat ben video beeld te verkrijgen motion te installeren. Motion is de library die Artur vorig 
